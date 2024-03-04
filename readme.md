@@ -1,4 +1,8 @@
+## What's this?
+A simple Python console (terminal) menu that work's on any OS and is navigable by only using a keyboard.
+
 ## Usage
+#### Example code:
 ```py
 import consolemenu_py as cm
 
@@ -15,6 +19,9 @@ async def main():
     # This will only return if the user exists the main menu
     await mm.run()
 ```
+
+#### Will look like this:
+![](https://raw.githubusercontent.com/Pirulax/consolemenu.py/master/docs/img/example.png)
 
 ## License
 This package is licensed under MIT, see `LICENSE`
